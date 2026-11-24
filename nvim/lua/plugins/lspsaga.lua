@@ -17,7 +17,7 @@ return {
         config = function()
           require("nvim-treesitter.configs").setup({
             ensure_installed = {
-              "java",
+              -- "java",
               "lua",
             },
             highlight = { enable = true },

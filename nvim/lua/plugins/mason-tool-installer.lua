@@ -21,7 +21,7 @@ return {
       })
       require("mason-tool-installer").setup({
         ensure_installed = {
-          "jdtls",
+          -- "jdtls",
           "lua-language-server",
         },
         integrations = {
